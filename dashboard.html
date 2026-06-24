@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard Porsche</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #0b0b0b;
+        color: #fff;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #d4af37;
+        margin-bottom: 30px;
+    }
+
+    .filters {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    select {
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .kpis {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        background: #1a1a1a;
+        padding: 20px;
+        border-radius: 10px;
+        width: 20%;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(212,175,55,0.3);
+    }
+
+    .card h2 {
+        color: #d4af37;
+        margin: 0;
+    }
+
+    .charts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .chart-box {
+        background: #1a1a1a;
+        padding: 20px;
+        border-radius: 10px;
+        height: 250px;
+    }
+
+    .title {
+        color: #d4af37;
+        margin-bottom: 10px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<h1>Dashboard Porsche - Vendas</h1>
+
+<!-- FILTROS -->
+<div class="filters">
+    <select>
+        <option>Modelo</option>
+    </select>
+
+    <select>
+        <option>Ano do Modelo</option>
+    </select>
+
+    <select>
+        <option>Cidade</option>
+    </select>
+
+    <select>
+        <option>Método de Pagamento</option>
+    </select>
+</div>
+
+<!-- KPIs -->
+<div class="kpis">
+    <div class="card">
+        <h2>128</h2>
+        <p>Vendas Totais</p>
+    </div>
+
+    <div class="card">
+        <h2>5</h2>
+        <p>Modelos Vendidos</p>
+    </div>
+
+    <div class="card">
+        <h2>R$ 312K</h2>
+        <p>Receita Total</p>
+    </div>
+
+    <div class="card">
+        <h2>R$ 2.4K</h2>
+        <p>Ticket Médio</p>
+    </div>
+</div>
+
+<!-- GRÁFICOS -->
+<div class="charts">
+
+    <div class="chart-box">
+        <div class="title">Vendas por Modelo</div>
+        <p>Gráfico aqui (bar chart)</p>
+    </div>
+
+    <div class="chart-box">
+        <div class="title">Vendas por Cidade</div>
+        <p>Gráfico aqui (bar chart)</p>
+    </div>
+
+    <div class="chart-box">
+        <div class="title">Vendas por Ano</div>
+        <p>Gráfico aqui (line chart)</p>
+    </div>
+
+    <div class="chart-box">
+        <div class="title">Formas de Pagamento</div>
+        <p>Gráfico aqui (pie chart)</p>
+    </div>
+
+</div>
+
+</body>
+</html>
