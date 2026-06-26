@@ -1,24 +1,39 @@
-# 🚗 Dashboard Porsche - Análise de Vendas
+🚗 Dashboard Porsche - Análise de Vendas
 
-Este projeto foi desenvolvido como parte do bootcamp da DIO, com o objetivo de criar um dashboard interativo de análise de vendas de veículos Porsche.
+Este projeto foi desenvolvido como parte do bootcamp da DIO, com o objetivo de criar uma dashboard interativa para análise de vendas de veículos Porsche.
 
-## 📊 Funcionalidades
+A dashboard utiliza a base de dados sanitizada fornecida no desafio e apresenta indicadores, gráficos e filtros para apoiar a análise dos dados.
 
-- KPIs de vendas totais, ticket médio e quantidade de modelos
-- Filtros por modelo, ano, cidade e método de pagamento
-- Análise de vendas por cidade, modelo e ano
-- Visual moderno inspirado na identidade da Porsche
+📊 Funcionalidades
 
-## 🛠️ Tecnologias utilizadas
+- KPIs de vendas totais, receita total, ticket médio e ano de modelo com maior saída
+- Filtros por modelo da Porsche, ano do modelo, cidade e método de pagamento
+- Gráfico de principais modelos vendidos por cidade
+- Análise de vendas por ano do modelo
+- Visualização dos métodos de pagamento mais utilizados
+- Insights sobre os modelos mais populares em cada cidade
+- Interface com visual elegante e refinado, inspirado na identidade da Porsche
+
+🛠️ Tecnologias utilizadas
 
 - HTML
 - CSS
-- Estrutura de dados baseada em Excel
-- Conceitos de Data Analytics e IA
+- JavaScript
+- Chart.js
+- Base de dados em Excel
+- Conceitos de Data Analytics e Inteligência Artificial
 
-## 🎯 Objetivo
+🎯 Objetivo
 
-Praticar análise de dados, visualização de informações e criação de dashboards para tomada de decisão.
+Praticar análise de dados, criação de indicadores, visualização de informações e desenvolvimento de dashboards para apoio à tomada de decisão.
+
+📁 Base de dados
+
+A base utilizada foi a planilha sanitizada disponibilizada como material complementar do projeto da DIO.
+
+🤖 Observação
+
+Projeto desenvolvido para fins educacionais durante o bootcamp da DIO, utilizando apoio de ferramentas de IA para estruturação da dashboard, análise dos dados e geração de insights.
 
 ---
 
